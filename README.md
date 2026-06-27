@@ -23,3 +23,19 @@ An automated, intelligent IT helpdesk solution built to streamline organizationa
 *   **Natural Language Processing:** `node-nlp`
 *   **Testing Suite:** Vitest
 *   **Linting:** ESLint
+
+
+## 📁 Environment Setup
+
+Create a local `.env` file in the root directory of your project (similar to your `env.example` template) and populate it with the following variables[cite: 6, 7]:
+
+```env
+# MongoDB Atlas connection string
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/it-support-chatbot?retryWrites=true&w=majority
+
+# NextAuth secret — generate with: openssl rand -base64 32
+NEXTAUTH_SECRET=your-super-secret-key-change-in-production
+NEXTAUTH_URL=http://localhost:3000
+
+# Optional: confidence threshold for NLP (0-1)
+NLP_CONFIDENCE_THRESHOLD=0.6
