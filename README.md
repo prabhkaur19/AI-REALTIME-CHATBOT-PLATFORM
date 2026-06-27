@@ -27,7 +27,7 @@ An automated, intelligent IT helpdesk solution built to streamline organizationa
 
 ## 📁 Environment Setup
 
-Create a local `.env` file in the root directory of your project (similar to your `env.example` template) and populate it with the following variables[cite: 6, 7]:
+Create a local `.env` file in the root directory of your project (similar to your `env.example` template) and populate it with the following variables:
 
 ```env
 # MongoDB Atlas connection string
